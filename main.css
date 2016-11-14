@@ -42,6 +42,8 @@ body {
   height: 100%;
   line-height: 50px;
   margin-left: 2%;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .user-reddits {
@@ -54,6 +56,11 @@ body {
   line-height: 50px;
   overflow: hidden;
   text-align: center;
+  text-decoration: underline;
+}
+
+.user-reddit-header {
+  cursor: pointer;
 }
 
 .user-reddit-titles {
@@ -68,6 +75,7 @@ body {
   overflow: hidden;
   text-align: center;
   clear: left;
+  cursor: pointer;
 }
 
 .filter-container {
@@ -75,7 +83,7 @@ body {
   top: 55px;
   left: 600px;
   text-align: center;
-  margin: 1% 10% 0 0;
+  margin: 10px 0 0 0;
   line-height: 50px;
   height: 30px;
   width: 282px;
@@ -99,6 +107,7 @@ body {
   border-radius: 5px;
   color: rgba(245, 245, 245, 1);
   background-color: rgba(40, 50, 255, .9);
+  cursor: pointer;
 }
 
 .current-page-title {
@@ -124,9 +133,10 @@ body {
   border-radius: 5px;
   border: 2px solid rgba(100, 100, 100, .8);
   height: 100px;
-  width: 80%;
+  width: 600px;
   min-width: 700px;
   background-color: white;
+  cursor: pointer;
 }
 
 .link-votes {
