@@ -21963,7 +21963,7 @@
 	      };
 	      return _react2.default.createElement(
 	        'a',
-	        { href: url },
+	        { target: '_blank', href: url },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'reddit-link-wrapper' },
