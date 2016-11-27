@@ -22,7 +22,7 @@ class Link extends Component {
       gif: true
     };
     return (
-      <a href={url}>
+      <a target="_blank" href={url}>
         <div className="reddit-link-wrapper">
           <div className="link-votes">
             {this.state.votes}
