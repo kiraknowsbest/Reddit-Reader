@@ -1,5 +1,5 @@
 # Reddit-Reader
-Preview at https://kiraknowsbest.github.io/Reddit-Reader/
+View project at https://kiraknowsbest.github.io/Reddit-Reader/
 a simple SPA leveraging the Reddit API
 
 To run:
